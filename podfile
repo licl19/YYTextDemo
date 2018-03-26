@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+target 'YYTextDemo' do
+   pod 'YYText'
+   pod 'YYImage'
+end
