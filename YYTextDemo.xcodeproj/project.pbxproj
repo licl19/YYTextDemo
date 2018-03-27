@@ -17,6 +17,7 @@
 		432FC9BE2068D8FD004680F8 /* YYTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FC9BD2068D8FD004680F8 /* YYTextDemoTests.m */; };
 		432FC9C92068D8FD004680F8 /* YYTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FC9C82068D8FD004680F8 /* YYTextDemoUITests.m */; };
 		432FC9D72068F20E004680F8 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 432FC9D62068F20E004680F8 /* EmoticonQQ.bundle */; };
+		4336B552206A191D004668B9 /* ViewControllerParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4336B551206A191D004668B9 /* ViewControllerParse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		432FC9C82068D8FD004680F8 /* YYTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextDemoUITests.m; sourceTree = "<group>"; };
 		432FC9CA2068D8FD004680F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432FC9D62068F20E004680F8 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
+		4336B550206A191D004668B9 /* ViewControllerParse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerParse.h; sourceTree = "<group>"; };
+		4336B551206A191D004668B9 /* ViewControllerParse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerParse.m; sourceTree = "<group>"; };
 		C3CC224911D5C672075F71A2 /* libPods-YYTextDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYTextDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9368B925429928A1076FF4 /* Pods-YYTextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYTextDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYTextDemo/Pods-YYTextDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +118,8 @@
 				432FC9A52068D8FD004680F8 /* AppDelegate.m */,
 				432FC9A72068D8FD004680F8 /* ViewController.h */,
 				432FC9A82068D8FD004680F8 /* ViewController.m */,
+				4336B550206A191D004668B9 /* ViewControllerParse.h */,
+				4336B551206A191D004668B9 /* ViewControllerParse.m */,
 				432FC9AA2068D8FD004680F8 /* Main.storyboard */,
 				432FC9AD2068D8FD004680F8 /* Assets.xcassets */,
 				432FC9AF2068D8FD004680F8 /* LaunchScreen.storyboard */,
@@ -349,6 +354,7 @@
 			files = (
 				432FC9A92068D8FD004680F8 /* ViewController.m in Sources */,
 				432FC9B42068D8FD004680F8 /* main.m in Sources */,
+				4336B552206A191D004668B9 /* ViewControllerParse.m in Sources */,
 				432FC9A62068D8FD004680F8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

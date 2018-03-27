@@ -10,6 +10,7 @@
 #import <Foundation/Foundation.h>
 #import <YYText.h>
 #import <YYImage.h>
+#import "ViewControllerParse.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -174,7 +175,9 @@ NSMutableAttributedString *attributeText;
     CGFloat height = model.cellHeight;
     return height + 2*kLabelMarginTop;
 }
-    
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self presentViewController:[ViewControllerParse new] animated:YES completion:nil];
+}
     
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
